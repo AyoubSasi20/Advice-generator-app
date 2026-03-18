@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here]
-- Live Site URL: [Add your Netlify live site URL here]
+- Solution URL: [###]
+- Live Site URL: [###]
 
 ## My process
 
