@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+:root {
+  --Blue200: hsl(193, 38%, 86%);
+  --Green300: hsl(150, 100%, 66%);
+  --Blue600: hsl(217, 19%, 38%);
+  --Blue900: hsl(217, 19%, 24%);
+  --Blue950: hsl(218, 23%, 16%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--Blue950);
+  color: var(--Blue200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+.card {
+  background-color: var(--Blue900);
+  border-radius: 15px;
+  padding: 40px 20px 60px;
+  position: relative;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.card p {
+  font-size: 28px;
+  color: var(--Blue200);
+}
+
+
+.card h1 {
+  color: var(--Green300);
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.dice-btn {
+  border-radius: 50%;
+  border: none;
+  background-color: var(--Green300);
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.dice-btn img {
+  width: 40%;
+}
+.dice-btn:hover {
+  box-shadow: 0 0 40px var(--Green300);
+}
+
+.attribution {
+  margin-top: 50px;
+  font-size: 13px;
+  text-align: center;
+  color: #a3a5ae;
+}
+.attribution a {
+  color: #549ef2;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: #4c4e61;
+}
+
+@media (max-width: 1024px) {
+  .divider {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
